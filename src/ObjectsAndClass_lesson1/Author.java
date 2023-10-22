@@ -23,5 +23,12 @@ public class Author {
         return patronimic;
     }
 
-
+    @Override
+    public String toString() {
+        return "Author{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", patronimic='" + patronimic + '\'' +
+                '}';
+    }
 }

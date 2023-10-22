@@ -1,6 +1,7 @@
 package ObjectsAndClass_lesson1;
 
 public class Main {
+
     public static void main(String[] args) {
         Author stepenKing = new Author("Stepen", "King", null);
         Author stepenKing2 = new Author("Stepen", "King", null);
@@ -15,6 +16,9 @@ public class Main {
 
         secondBook.setPublishYear(2015);
         System.out.println(secondBook.getBookName() + " New publication: " + secondBook.getPublishYear() + " " + secondBook.getAuthor().getName() + " " + secondBook.getAuthor().getPatronimic() + " " + secondBook.getAuthor().getSurname());
+
+        System.out.println(joaneRolling);
+        System.out.println(secondBook);
 
     }
 }
